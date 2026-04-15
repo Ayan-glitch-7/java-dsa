@@ -2,7 +2,7 @@ public class Scoping {
     public static void main(String[] args) {
         int a = 10;
         int b = 20; 
-        
+         
         {
             //a = 45; //already initialized outside the block in the same method hence you cannot initialize it again
             a = 100; //can update the value only

@@ -1,7 +1,7 @@
 public class For_loop_scoping {
     public static void main(String[] args) {
         
-        for ( int i = 0; i < 4; i++) {
+        for ( int i = 0; i < 4; i++) { 
             System.out.println(i);
             int num = 99;
             int a= 9;

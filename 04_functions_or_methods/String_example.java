@@ -7,4 +7,4 @@ public class String_example {
         String greeting = "how are you?";
         return greeting;
     }
-}
+} 

@@ -1,6 +1,6 @@
 
 import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Multidimensional_array_list {
     public static void main(String[] args) {

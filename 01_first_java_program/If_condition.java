@@ -1,5 +1,5 @@
 public class If_condition {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
 
         // IF STATEMENT:
         // int a = 10;

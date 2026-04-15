@@ -2,7 +2,7 @@ public class Mains {
     public static void main(String[] args) {
         
         //Q- store a roll.no:
-        int a = 19;
+        int a = 19; 
 
         //Q- store a persons name:
         String name = "ayan";

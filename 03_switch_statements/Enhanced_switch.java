@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;  
 
 public class Enhanced_switch {
     public static void main(String[] args) {

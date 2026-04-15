@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Alphabet_case_check {
     public static void main(String[] args) {

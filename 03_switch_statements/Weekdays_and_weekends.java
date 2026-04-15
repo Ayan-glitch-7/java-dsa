@@ -1,5 +1,5 @@
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Weekdays_and_weekends {
     public static void main(String[] args) {

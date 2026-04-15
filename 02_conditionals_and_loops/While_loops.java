@@ -1,5 +1,5 @@
 
-public class While_loops {
+public class While_loops {  
     public static void main(String[] args) {
         
         /*

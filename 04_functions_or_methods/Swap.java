@@ -2,7 +2,7 @@ public class Swap {
     public static void main(String[] args) {
         int a = 20;
         int b = 10;
-
+ 
         /*swapping numbers*/
         // int temp = a;
         // a = b;

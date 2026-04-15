@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Change_value {
+public class Change_value { 
     public static void main(String[] args) {
         
         //create an array:

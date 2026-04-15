@@ -1,6 +1,6 @@
 
 import java.util.Arrays;
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Array_input_output {
     public static void main(String[] args) {

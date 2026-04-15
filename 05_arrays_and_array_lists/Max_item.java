@@ -1,7 +1,7 @@
 public class Max_item {
     public static void main(String[] args) {
         
-         int[] arr = {1, 2, 3, 4};
+         int[] arr = {1, 2, 3, 4}; 
          System.out.println(max(arr));
          System.out.println(maxRange(arr, 1, 2));
     }

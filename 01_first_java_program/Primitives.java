@@ -10,5 +10,5 @@ public class Primitives {
         double large_decimal_numbers = 34579.57547;
         long large_integer_numbers = 7835874568487L;
         boolean check = false;
-    }
+    } 
 }

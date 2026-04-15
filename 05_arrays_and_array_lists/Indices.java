@@ -1,7 +1,7 @@
 public class Indices {
     public static void main(String[] args) {
         
-        int[] roll_nos;
+        int[] roll_nos; 
         roll_nos = new int[5];
         System.out.println(roll_nos[0]);
 

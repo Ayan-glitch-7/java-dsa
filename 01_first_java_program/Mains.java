@@ -6,4 +6,4 @@ public class Mains {
         System.out.println("HELLO WORLD!");
         Scanner input = new Scanner(System.in);
     }
-}
+} 

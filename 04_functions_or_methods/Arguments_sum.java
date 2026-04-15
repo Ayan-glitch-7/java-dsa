@@ -1,4 +1,4 @@
-public class Arguments_sum {
+public class Arguments_sum { 
     public static void main(String[] args) {
         int ans = sum(20, 30);
         System.out.println(ans);
