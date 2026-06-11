@@ -12,7 +12,7 @@ public class Split_array_largest_sum {
             end += nums[i];
         }
 
-        // binary search
+        // binary search:
         while (start < end) {
             // try for the middle as the potential answer
             int mid = start + (end - start) / 2;
