@@ -30,7 +30,7 @@ public class Rotation_count_in_a_rotated_array {
             // if elements at start, middle, end are equal then just skip the duplicates
             if (arr[start] == arr[mid] && arr[mid] == arr[end]) {
                 // skip the duplicates
-                // NOTE: what if these elements at start and end were the pivot ?
+                // NOTE: what if these elements at start and end were the pivot 
 
                 // check if start is pivot
                 if (arr[start] > arr[start + 1]) {
