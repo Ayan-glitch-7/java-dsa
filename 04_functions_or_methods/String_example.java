@@ -3,8 +3,9 @@ public class String_example {
         String message = greet();
         System.out.println(message);
     }
+
     static String greet() {
         String greeting = "how are you?";
         return greeting;
     }
-} 
+}

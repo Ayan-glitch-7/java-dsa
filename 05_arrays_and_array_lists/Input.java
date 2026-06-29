@@ -3,9 +3,9 @@ import java.nio.file.FileSystemAlreadyExistsException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Input { 
+public class Input {
     public static void main(String[] args) {
-        
+
         Scanner in = new Scanner(System.in);
 
         // int[] arr = new int[5];
@@ -16,24 +16,27 @@ public class Input {
         // arr[4] = 20;
         // System.out.println(Arrays.toString(arr));
 
-        //input using for loops:
+        // input using for loops:
         // for (int i = 0; i < 5; i++) {
-        //     arr[i] = in.nextInt();
+        // arr[i] = in.nextInt();
         // }
 
         // for (int i = 0; i < 5; i++) {
-        //     System.out.print(arr[i] + " ");
+        // System.out.print(arr[i] + " ");
         // }
 
-        // for(int num : arr) {  //for every element in array print the array
-        //     System.out.println(num + " ");  //here num represents the elements of the array
+        // for(int num : arr) { //for every element in array print the array
+        // System.out.println(num + " "); //here num represents the elements of the
+        // array
         // }
 
-        //arrays of objects:
+        // arrays of objects:
         String[] str = new String[5];
         for (int i = 0; i < str.length; i++) {
             str[i] = in.next();
         }
         System.out.println(Arrays.toString(str));
+
+        in.close();
     }
 }

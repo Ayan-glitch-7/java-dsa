@@ -1,14 +1,14 @@
 public class Find_max_in_2D_array {
     public static void main(String[] args) {
         int[][] arr = {
-            {23, 5, 7},
-            {3, 56, 76},
-            {32, 54, 45},
-            {43, 67, 9},
-            {21, 90, 71}
+                { 23, 5, 7 },
+                { 3, 56, 76 },
+                { 32, 54, 45 },
+                { 43, 67, 9 },
+                { 21, 90, 71 }
         };
 
-        int ans = search(arr);     
+        int ans = search(arr);
         System.out.println(ans);
     }
 

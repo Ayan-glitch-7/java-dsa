@@ -1,5 +1,5 @@
 
-import java.util.Scanner; 
+import java.util.Scanner;
 
 public class Argument_string {
     public static void main(String[] args) {
@@ -9,6 +9,8 @@ public class Argument_string {
 
         String message = myGreet(name);
         System.out.println(message);
+
+        in.close();
     }
 
     static String myGreet(String name) {

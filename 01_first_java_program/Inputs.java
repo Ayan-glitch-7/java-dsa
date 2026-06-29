@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Inputs { 
+public class Inputs {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         // System.out.print("please enter some no: ");
@@ -16,5 +16,7 @@ public class Inputs {
 
         float marks = input.nextFloat();
         System.out.println(marks);
+
+        in.close();
     }
 }

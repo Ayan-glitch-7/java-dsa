@@ -1,34 +1,34 @@
-import java.util.Scanner; 
+import java.util.Scanner;
 
 public class Mains {
     public static void main(String[] args) {
-        
+
         Scanner in = new Scanner(System.in);
         String fruit = in.next();
 
         // if(fruit.equals("mango")) {
-        //     System.out.println("YELLOW");
+        // System.out.println("YELLOW");
         // }
 
         // if(fruit.equals("apple")) {
-        //     System.out.println("RED");
+        // System.out.println("RED");
         // }
 
         /*
-        SYNTAX OF SWITCH STATEMENT: 
-        switch (expression) {
-            //cases
-            case one:
-                //block one
-                break;
-            
-            case two:
-                //block two
-                break;
-            
-            default:
-                //block 3
-        */
+         * SYNTAX OF SWITCH STATEMENT:
+         * switch (expression) {
+         * //cases
+         * case one:
+         * //block one
+         * break;
+         * 
+         * case two:
+         * //block two
+         * break;
+         * 
+         * default:
+         * //block 3
+         */
 
         switch (fruit) {
             case "mango":
@@ -47,6 +47,7 @@ public class Mains {
                 System.out.println("INVALID!");
                 break;
         }
-        
+
+        in.close();
     }
 }

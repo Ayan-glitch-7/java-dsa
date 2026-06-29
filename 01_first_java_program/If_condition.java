@@ -1,17 +1,17 @@
 public class If_condition {
-    public static void main(String[] args) { 
+    public static void main(String[] args) {
 
         // IF STATEMENT:
         // int a = 10;
         // if (a == 10) {
-        //     System.out.println("HELLO WORLD!");
+        // System.out.println("HELLO WORLD!");
         // }
 
         // WHILE LOOP:
         // int count = 1;
         // while (count != 5) {
-        //     System.out.println(count);
-        //     count++;
+        // System.out.println(count);
+        // count++;
         // }
 
         // FOR LOOP:

@@ -1,13 +1,16 @@
 
-import java.util.Scanner; 
+import java.util.Scanner;
 
 public class Armstrong_numbers {
     public static void main(String[] args) {
-         
+
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         System.out.println(isArmstrong(n));
+
+        in.close();
     }
+
     static boolean isArmstrong(int n) {
         int original = n;
         int sum = 0;

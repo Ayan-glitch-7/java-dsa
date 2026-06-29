@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class Search_in_strings {
     public static void main(String[] args) {
-        
-        String name  = "ayan";
+
+        String name = "ayan";
         char target = 'n';
 
         // boolean ans1 = search1(name, target);
@@ -26,13 +26,11 @@ public class Search_in_strings {
         return false;
     }
 
-
     static boolean search2(String str, char target) {
         if (str.length() == 0) {
             return false;
         }
 
-        
         for (char ch : str.toCharArray()) {
             if (ch == target) {
                 return true;

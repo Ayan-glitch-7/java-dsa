@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in); 
+        Scanner in = new Scanner(System.in);
         int num1, num2, sum;
 
         System.out.print("enter 1st number: ");
@@ -14,5 +14,7 @@ public class Main {
 
         sum = num1 + num2;
         System.out.println("Sum = " + sum);
+
+        in.close();
     }
 }

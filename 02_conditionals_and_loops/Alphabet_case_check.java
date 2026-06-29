@@ -1,5 +1,5 @@
 
-import java.util.Scanner; 
+import java.util.Scanner;
 
 public class Alphabet_case_check {
     public static void main(String[] args) {
@@ -10,9 +10,10 @@ public class Alphabet_case_check {
 
         if (ch >= 'a' && ch <= 'z') {
             System.out.println("LOWERCASE");
-        }
-        else {
+        } else {
             System.out.println("UPPERCASE");
-        }        
+        }
+
+        in.close();
     }
 }

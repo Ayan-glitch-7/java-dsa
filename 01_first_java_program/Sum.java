@@ -1,5 +1,5 @@
 import java.util.Scanner;
- 
+
 public class Sum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -9,5 +9,7 @@ public class Sum {
 
         int sum = num1 + num2;
         System.out.println("Sum = " + sum);
+
+        in.close();
     }
 }

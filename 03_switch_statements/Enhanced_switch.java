@@ -1,17 +1,17 @@
-import java.util.Scanner;  
+import java.util.Scanner;
 
 public class Enhanced_switch {
     public static void main(String[] args) {
-        
+
         Scanner in = new Scanner(System.in);
 
         // String fruit = in.next();
         // switch (fruit) {
-        //     case "mango" -> System.out.println("YELLOW");
-        //     case "apple" -> System.out.println("RED");
-        //     case "orange" -> System.out.println("ORANGE");
-        //     case "grapes" -> System.out.println("GREEN");
-        //     default -> System.out.println("INVALID!");
+        // case "mango" -> System.out.println("YELLOW");
+        // case "apple" -> System.out.println("RED");
+        // case "orange" -> System.out.println("ORANGE");
+        // case "grapes" -> System.out.println("GREEN");
+        // default -> System.out.println("INVALID!");
         // }
 
         int day = in.nextInt();
@@ -25,5 +25,7 @@ public class Enhanced_switch {
             case 7 -> System.out.println("Sunday");
             default -> System.out.println("Invalid!");
         }
+
+        in.close();
     }
 }

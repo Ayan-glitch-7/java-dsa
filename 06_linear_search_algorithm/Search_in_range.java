@@ -1,7 +1,7 @@
 public class Search_in_range {
     public static void main(String[] args) {
-        
-        int[] nums = {3, 4, 65, 22, 63, 76, 43, 66, 0};
+
+        int[] nums = { 3, 4, 65, 22, 63, 76, 43, 66, 0 };
         int target = 22;
 
         int ans1 = linearSearch1(nums, target, 2, 5);

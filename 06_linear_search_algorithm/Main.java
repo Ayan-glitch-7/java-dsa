@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {3, 4, 65, 22, 63, 76, 43, 66, 0};
+        int[] nums = { 3, 4, 65, 22, 63, 76, 43, 66, 0 };
         int target = 0;
 
         int ans1 = linearSearch1(nums, target);
@@ -13,7 +13,6 @@ public class Main {
         System.out.println(ans3);
     }
 
-    
     // search int the array : return the index if item found
     // otherwise if item not found return -1
     static int linearSearch1(int[] arr, int target) {
@@ -35,7 +34,6 @@ public class Main {
         return -1;
     }
 
-
     // search the target and return the element
     static int linearSearch2(int[] arr, int target) {
         if (arr.length == 0) {
@@ -55,7 +53,6 @@ public class Main {
         // hence target not found
         return Integer.MAX_VALUE;
     }
-    
 
     // search the target and return true or false
     static boolean linearSearch3(int[] arr, int target) {
@@ -75,5 +72,5 @@ public class Main {
         // this line will be only executed if above no return statement is executed
         // hence target not found
         return false;
-    }   
+    }
 }

@@ -1,7 +1,7 @@
 public class Numbers_with_even_number_of_digits {
     public static void main(String[] args) {
-        
-        int[] nums = {12,-45,2,6,7896};
+
+        int[] nums = { 12, -45, 2, 6, 7896 };
 
         int ans = evenNumberOfDigits(nums);
         System.out.println(ans);

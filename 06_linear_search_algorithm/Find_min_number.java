@@ -1,7 +1,7 @@
 public class Find_min_number {
     public static void main(String[] args) {
-        int[] nums = {3, 4, 65, -2, 63, 76, 43, 66, 0};
-        
+        int[] nums = { 3, 4, 65, -2, 63, 76, 43, 66, 0 };
+
         int ans = minNumber(nums);
         System.out.println(ans);
     }

@@ -1,20 +1,20 @@
 
-import java.util.Scanner; 
- 
+import java.util.Scanner;
+
 public class Type_casting {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); 
+        Scanner input = new Scanner(System.in);
 
         // float num = input.nextFloat();
         // int num1 = input.nextInt();
-        // System.out.println(num); 
+        // System.out.println(num);
         // System.out.println(num1);
 
-        //TYPE CASTING:
+        // TYPE CASTING:
         // int num = (int)(78.754753);
         // System.out.println(num);
 
-        //AUTOMATIC TYOE PROMOTION IN EXPRESSIONS:
+        // AUTOMATIC TYOE PROMOTION IN EXPRESSIONS:
         // int a = 257;
         // byte b = (byte)(a);
         // System.out.println(b);
@@ -45,5 +45,7 @@ public class Type_casting {
         double result = (f * b) + (i / c) - (d * s);
         System.out.println((f * b) + " " + (i / c) + " " + (d * s));
         System.out.println(result);
+
+        in.close();
     }
 }

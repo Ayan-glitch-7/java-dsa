@@ -3,12 +3,15 @@ import java.util.Scanner;
 
 public class Question {
     public static void main(String[] args) {
-        
+
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         Boolean ans = isPrime(n);
         System.out.println(ans);
-    } 
+
+        in.close();
+    }
+
     static boolean isPrime(int n) {
         if (n <= 1) {
             return false;
@@ -21,8 +24,8 @@ public class Question {
             c++;
         }
         if (c * c > n) {
-        return true;
+            return true;
         }
         return false;
-    }   
+    }
 }
