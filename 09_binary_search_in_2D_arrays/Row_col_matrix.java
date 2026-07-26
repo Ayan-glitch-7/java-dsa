@@ -23,8 +23,7 @@ public class Row_col_matrix {
             }
             if (matrix[r][c] < target) {
                 r++;
-            }
-            if (matrix[r][c] > target) {
+            } else {
                 c--;
             }
         }

@@ -10,7 +10,5 @@ public class Main_51 {
         }
 
         System.out.println("Number of days Ayan can go out: " + count);
-
-        in.close();
     }
 }
