@@ -21,4 +21,3 @@ public class Main_33 {
         return ans;
     }
 }
-a
