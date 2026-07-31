@@ -21,4 +21,3 @@ public class Main_35 {
         return true;
     }
 }
-a
