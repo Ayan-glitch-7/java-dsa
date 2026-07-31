@@ -1,6 +1,6 @@
 /* LEETCODE (# 189) */
 
-public class Mains_36 {
+public class Main_36 {
     public void rotate(int[] nums, int k) {
 
         int n = nums.length;
