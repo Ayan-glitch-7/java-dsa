@@ -1,6 +1,6 @@
-/* LEETCODE (# 34) */
+/* LEETCODE (#34) */
 
-public class Main_34 {
+public class Main_01 {
     // public int[] searchRange(int[] nums, int target) {
 
     //     int[] ans = { -1, -1 };

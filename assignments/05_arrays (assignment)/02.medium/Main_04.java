@@ -1,6 +1,6 @@
 /* LEETCODE (# 73) */
 
-public class Main_32 {
+public class Main_04 {
     // public void setZeroes(int[][] matrix) {
 
     //     int m = matrix.length;

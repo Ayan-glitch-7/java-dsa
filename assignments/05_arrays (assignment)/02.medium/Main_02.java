@@ -1,6 +1,6 @@
 /* LEETCODE (# 59) */
 
-public class Main_30 {
+public class Main_02 {
     // public int[][] generateMatrix(int n) {
 
     //     int[][] ans = new int[n][n];

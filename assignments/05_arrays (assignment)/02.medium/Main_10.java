@@ -1,6 +1,6 @@
 /* LEETCODE (# 198) */
 
-public class Main_38 {
+public class Main_10 {
     // public int rob(int[] nums) {
 
     //     int n = nums.length;

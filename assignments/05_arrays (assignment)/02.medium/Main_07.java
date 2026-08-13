@@ -1,6 +1,6 @@
 /* LEETCODE (# 55) */
 
-public class Main_35 {
+public class Main_07 {
     // public boolean canJump(int[] nums) {
 
     //     int n = nums.length;
